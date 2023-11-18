@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Rooms</title>
+</head>
+<body>
+    <div class="container">
+    <form class="formstyle" style="padding-top: 7rem;" action="roomdb.php" method="POST">
+    <div class="title">ADD A ROOM</div>
+    <div class="room" style="color: #EBE0D0; font-size: 1.5rem;">
+    <label class="f_text" for="roomtype">Room Type:</label><br>
+    <input type="radio" id="" name="Type" required value="Good for 3 - 5 persons" required>
+    <label for="3-5"></label>Good for 3 - 5 persons<br>
+    <input type="radio" id="" name="Type" required value="Good for 6 - 12 persons" required>
+    <label for="6-12"></label>Good for 6- 12 persons<br>
+</div>
+    <br><br>
+    <div class="room" style="color: #EBE0D0; font-size: 1.5rem;"">
+    <label class="f_text" for="Room Status">Room Status:</label><br>
+    <input type="radio" id="" name="Status" value="Active" required>
+    <label for="Active">Active</label><br>
+    <input type="radio" id="" name="Status" value="Inactive" required>
+    <label for="Active">Inactive</label><br>
+    <br>
+    </div>
+    <input class="button" style="margin-top: 2rem;" type="submit" value="submit">
+    </form> 
+</div>
+</body>
+</html>

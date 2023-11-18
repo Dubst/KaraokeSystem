@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans', sans-serif;
+   
+   
+}
+
+
+body{
+    background-image: url('img/enhanced.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.container{
+    background-image: url('img/image 5.png');
+    width: 37vw;
+    height: 100vh;
+    float: right; 
+}   
+
+.container1{
+   
+    margin: auto;
+    margin-top: 3rem;
+    height: 80%;
+
+}
+
+.title{
+    color: #EBE0D0;
+    text-align: center;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    height: 20%;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+.f_text{
+    
+    font-size: 0.9125rem;
+    font-style: normal;
+    line-height: normal;
+    color: #EBE0D0;
+    
+}
+
+.name, .homeaddress, .contact, .gender, .pass{  
+    margin: auto;
+    height: 55px;
+    width: 80%;
+    text-align: left;
+}
+
+.login_id, .login_pass{
+     
+    margin: auto;
+    margin-top: 6rem;
+    height: 100px;
+    text-align: left;
+}
+
+
+
+
+
+.t_field{
+    width: 100%;
+    height: 60%;
+    margin: auto;
+    border-radius: 3rem;
+    background-color: #EC9EC0;
+}
+
+
+.formstyle{
+    background: linear-gradient(276deg, rgba(226, 19, 168, 0.50) 4.29%, rgba(255, 255, 255, 0.00) 88.96%);
+      
+    text-align: center;
+    padding: 1rem;
+    height: 100%;
+    
+}
+
+.login_button{
+    margin-top: 5rem;
+    width: 50%;
+    height: 12%;
+    border-radius: 3rem;
+    background-color: #A91B60;
+    color: #EBE0D0;
+    text-align: center;
+    font-family: IBM Plex Sans;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-color: #A91B60;
+    transition: .7s;
+    
+}
+
+.button{
+    width: 50%;
+    height: 7%;
+    border-radius: 3rem;
+    background-color: #A91B60;
+    color: #EBE0D0;
+    text-align: center;
+    font-family: IBM Plex Sans;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    transition: .7s;
+}
+
+.button:hover, .login_button:hover{
+    background-color: #EC9EC0;
+    color: #A91B60;
+    transform: scale(1.1);
+}
+
+.t_field, input[type="text"]{
+    font-weight: bolder;
+}
+
+.t_field:focus, input:focus {
+    background-color: #EC9EC0;
+    
+}
+
+.room{
+    margin: auto;
+
+}
+
+
