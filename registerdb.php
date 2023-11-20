@@ -12,7 +12,7 @@ $password = $_POST["password"];
 $sql = "INSERT INTO user(name, address, contactNum, sex, pass) VALUES ('$name','$address','$number', '$gender', '$password')";
 
 $conn->query($sql);
-
+header('Location: index.php');
 $conn->close();
 
 ?>
